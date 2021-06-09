@@ -13,7 +13,10 @@ const CustomHead = ({ title }) => {
         content="abdull, abdulrasheed ibrahim, abdoul, web developer, nitin web developer, nitin developer, mern stack, nitin portfolio"
       />
       <meta property="og:title" content="Abdulrasheed's Portfolio" />
-      <meta property="og:image" content="/public/me.png" />
+      <meta
+        property="og:image"
+        content="https://github.com/Abdoulrasheed/vscode-portfolio/blob/main/public/me.jpg"
+      />
       <meta
         property="og:description"
         content="Web / Mobile Application Developer"
@@ -32,7 +35,10 @@ const CustomHead = ({ title }) => {
         name="twitter:description"
         content="JavaScript, Python, ReactJS, React Native and Django"
       />
-      <meta name="twitter:image" content="/public/me.png" />
+      <meta
+        name="twitter:image"
+        content="https://github.com/Abdoulrasheed/vscode-portfolio/blob/main/public/me.jpg"
+      />
     </Head>
   );
 };
