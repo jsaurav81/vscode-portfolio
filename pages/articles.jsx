@@ -1,7 +1,32 @@
+import { useEffect } from "react";
+import { useState } from "react";
 import ArticleCard from "../components/ArticleCard";
 import styles from "../styles/ArticlesPage.module.css";
 
-const ArticlesPage = ({ articles }) => {
+const ArticlesPage = () => {
+  const [articles, setArticles] = useState([]);
+
+  useEffect(() => {
+    loadArticles();
+  }, []);
+
+  const loadArticles = async () => {
+    try {
+      const res = await fetch(
+        "https://dev.to/api/articles/me/published?per_page=6",
+        {
+          headers: {
+            "api-key": process.env.DEV_TO_API_KEY,
+          },
+        }
+      );
+      const data = await res.json();
+      setArticles(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return (
     <>
       <h3>
@@ -25,19 +50,8 @@ const ArticlesPage = ({ articles }) => {
 };
 
 export async function getStaticProps() {
-  const res = await fetch(
-    "https://dev.to/api/articles/me/published?per_page=6",
-    {
-      headers: {
-        "api-key": process.env.DEV_TO_API_KEY,
-      },
-    }
-  );
-
-  const data = await res.json();
-
   return {
-    props: { title: "Articles", articles: data || [] },
+    props: { title: "Articles" },
     revalidate: 60,
   };
 }
