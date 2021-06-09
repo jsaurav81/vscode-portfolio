@@ -92,7 +92,7 @@
 @media screen and (max-width: 600px) {
   .container {
     flex-direction: column-reverse;
-    height: 70vh;
+    height: 85vh;
   }
 
   .picture_boader {

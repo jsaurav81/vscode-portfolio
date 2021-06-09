@@ -46,7 +46,7 @@ const GithubPage = () => {
           </a>
         )}
         <span>
-          <a href={user.repos_url}>
+          <a href={`${user.html_url}?tab=repositories`} target="blank">
             <FontAwesomeIcon icon={faGithub} className={styles.icon} />{" "}
             {user.public_repos} Public Repos
           </a>

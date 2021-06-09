@@ -6,6 +6,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "../styles/HomePage.module.css";
+import {
+  faGithubAlt,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function HomePage() {
   return (
@@ -16,12 +21,10 @@ export default function HomePage() {
         <h3 className={styles.subtitle}>Mobile / Web Developer</h3>
         <ul className={styles.contacts}>
           <li>
-            <FontAwesomeIcon icon={faPhoneAlt} />
-            <a href="mailto:abdoul@tuta.io">abdoul@tuta.io</a>
-          </li>
-          <li>
             <FontAwesomeIcon icon={faEnvelope} />
-            <a href="tel:+2347033389645">+2347033389645</a>
+            <a href="mailto:abdulrasheedibrahim47@gmail.com">
+              abdulrasheedibrahim47@gmail.com
+            </a>
           </li>
           <li>
             <FontAwesomeIcon icon={faMapMarker} />
@@ -31,6 +34,24 @@ export default function HomePage() {
             >
               Yola, Nigeria
             </a>{" "}
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faPhoneAlt} />
+            <a href="tel:+2347033389645">+2347033389645</a>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faGithubAlt} />
+            <a href="https://github.com/Abdoulrasheed">Github</a>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faLinkedin} />
+            <a href="https://www.linkedin.com/in/abdulrasheed-ibrahim-2b3a90103/">
+              Linkedin
+            </a>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faTwitter} />
+            <a href="https://twitter.com/Aiibrahim3">Twitter</a>
           </li>
         </ul>
       </div>
