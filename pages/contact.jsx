@@ -16,7 +16,7 @@ const ContactPage = () => {
           <FontAwesomeIcon icon={faMapMarker} className={styles.cardIcon} />
           <div className={styles.cardBody}>
             <h2>Address</h2>
-            <address>Yola, Adamawa State, Nigeria</address>
+            <address>Jamshedpur, Jharkhand State, India</address>
           </div>
         </div>
         <div className={styles.card}>
@@ -24,8 +24,8 @@ const ContactPage = () => {
           <div className={styles.cardBody}>
             <h2>Email</h2>
             <p>
-              <a href="mailto:abdulrasheedibrahim47@gmail.com">
-                abdulrasheedibrahim47@gmail.com
+              <a href="mailto:jsaurav221@gmail.com">
+              jsaurav221@gmail.com
               </a>
             </p>
           </div>
@@ -35,7 +35,7 @@ const ContactPage = () => {
           <div className={styles.cardBody}>
             <h2>Address</h2>
             <p>
-              <a href="tel:+2347033389645">+2347033389645</a>
+              <a href="tel:+918789364355">+918789364355</a>
             </p>
           </div>
         </div>

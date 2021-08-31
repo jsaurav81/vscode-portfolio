@@ -19,29 +19,56 @@ const AboutPage = () => {
       <div className={styles.leftScreen}>
         <h2 className={styles.title}>About Me</h2>
         <p className={styles.about}>
-          Hello, I’m Abdulrasheed, a mobile and web developer based in Yola,
-          Nigeria. I have rich experience in building web and cross plartform
-          mobile applications. In summary I'm a Full Stack Developer skilled in
-          the following
+          Hello, I’m Saurav Jha, a frontend web developer based in Jamshedpur, India with a history of working in the financial services industry. 
+          I have rich experience in ReactJs, AngularJs, Typescript to begin with. 
+          I'm passionate about Javascript and UI frameworks. 
+          In summary I'm a UI Developer skilled in the following
         </p>
         <ul className={styles.skillList}>
           <li>
             <span>JavaScript</span>
           </li>
           <li>
-            <span>Python</span>
+            <span>HTML5</span>
           </li>
           <li>
-            <span>Django</span>
+            <span>SCSS</span>
           </li>
           <li>
             <span>ReactJS</span>
           </li>
           <li>
-            <span>React Native</span>
+            <span>Redux</span>
           </li>
           <li>
-            <span>Python</span>
+            <span>AngularJs</span>
+          </li>
+          <li>
+            <span>VueJs</span>
+          </li>
+          <li>
+            <span>GraphQL</span>
+          </li>
+          <li>
+            <span>Rest Api</span>
+          </li>
+          <li>
+            <span>Nextjs</span>
+          </li>
+          <li>
+            <span>Git</span>
+          </li>
+          <li>
+            <span>TypeScript</span>
+          </li>
+          <li>
+            <span>GatsbyJs</span>
+          </li>
+          <li>
+            <span>Tailwind CSS</span>
+          </li>
+          <li>
+            <span>Jest</span>
           </li>
         </ul>
         <a className={styles.resumeButton} href="#">

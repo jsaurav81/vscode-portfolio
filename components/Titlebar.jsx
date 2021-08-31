@@ -19,7 +19,7 @@ const Titlebar = () => {
         <p>Terminal</p>
         <p>Help</p>
       </div>
-      <p className={styles.title}>Abdulrasheed Ibrahim - Software Developer</p>
+      <p className={styles.title}>Saurav Jha - Software Developer</p>
       <div className={styles.windowButtons}>
         <span className={styles.minimize}></span>
         <span className={styles.maximize}></span>

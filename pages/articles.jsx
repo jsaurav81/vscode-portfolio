@@ -32,7 +32,7 @@ const ArticlesPage = () => {
       <h3>
         Recent Posts from{" "}
         <a
-          href="https://dev.to/abdoulrasheed"
+          href="https://dev.to/"
           target="_blank"
           rel="noopener"
           className={styles.underline}

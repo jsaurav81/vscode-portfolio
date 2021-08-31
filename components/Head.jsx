@@ -6,22 +6,22 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Abdulrasheed Ibrahim is an avid full stack web developer building websites and applications you'd love to use"
+        content="Saurav Jha is an avid Frontend web developer building websites and applications you'd love to use"
       />
       <meta
         name="keywords"
-        content="abdull, abdulrasheed ibrahim, abdoul, web developer, nitin web developer, nitin developer, mern stack, nitin portfolio"
+        content="saurav, saurav Jha, saurav, web developer, frontend web developer, UI, frontend, web developer,"
       />
-      <meta property="og:title" content="Abdulrasheed's Portfolio" />
+      <meta property="og:title" content="Saurav's Portfolio" />
       <meta
         property="og:image"
-        content="https://github.com/Abdoulrasheed/vscode-portfolio/blob/main/public/me.jpg"
+        content="https://github.com/jsaurav81/vscode-portfolio/blob/main/public/me.jpg"
       />
       <meta
         property="og:description"
-        content="Web / Mobile Application Developer"
+        content="Frontend web Developer"
       />
-      <meta property="og:url" content="https://www.abdull.dev" />
+      <meta property="og:url" content="" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="627" />
       <meta property="og:type" content="website" />
@@ -29,15 +29,15 @@ const CustomHead = ({ title }) => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:title"
-        content="Abdulrasheed Ibrahim | Web / Mobile App Developer"
+        content="Saurav Jha | Frontend web Developer"
       />
       <meta
         name="twitter:description"
-        content="JavaScript, Python, ReactJS, React Native and Django"
+        content="JavaScript, Python, ReactJS, HTML, CSS, Rest Api"
       />
       <meta
         name="twitter:image"
-        content="https://github.com/Abdoulrasheed/vscode-portfolio/blob/main/public/me.jpg"
+        content="https://github.com/jsaurav81/vscode-portfolio/blob/main/public/me.jpg"
       />
     </Head>
   );
@@ -46,5 +46,5 @@ const CustomHead = ({ title }) => {
 export default CustomHead;
 
 CustomHead.defaultProps = {
-  title: "Abdulrasheed Ibrahim",
+  title: "Saurav Jha",
 };

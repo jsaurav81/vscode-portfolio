@@ -22,12 +22,12 @@ const GithubPage = () => {
 
   const loadData = async () => {
     fetch(
-      "https://api.github.com/users/abdoulrasheed/repos?sort=updated&direction=desc&per_page=6"
+      "https://api.github.com/users/jsaurav81/repos?sort=updated&direction=desc&per_page=6"
     )
       .then((response) => response.json())
       .then((data) => setData(data));
 
-    fetch("https://api.github.com/users/abdoulrasheed")
+    fetch("https://api.github.com/users/jsaurav81")
       .then((response) => response.json())
       .then((data) => setUser(data));
   };
